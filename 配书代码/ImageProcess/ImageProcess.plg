@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageProcess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP393.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImageProcess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\MyProject\ImageProcess\Gray.cpp"
+"E:\MyProject\ImageProcess\ImageProcess.cpp"
+"E:\MyProject\ImageProcess\ImageProcessDoc.cpp"
+"E:\MyProject\ImageProcess\ImageProcessView.cpp"
+"E:\MyProject\ImageProcess\IntensityDlg.cpp"
+"E:\MyProject\ImageProcess\MainFrm.cpp"
+"E:\MyProject\ImageProcess\Vector2D.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP393.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP394.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImageProcess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\MyProject\ImageProcess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP394.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP395.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImageProcess.pdb" /debug /machine:I386 /out:"Debug/ImageProcess.exe" /pdbtype:sept 
+.\Debug\Gray.obj
+.\Debug\ImageProcess.obj
+.\Debug\ImageProcessDoc.obj
+.\Debug\ImageProcessView.obj
+.\Debug\IntensityDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\Vector2D.obj
+.\Debug\ImageProcess.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP395.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+Gray.cpp
+ImageProcess.cpp
+ImageProcessDoc.cpp
+ImageProcessView.cpp
+IntensityDlg.cpp
+MainFrm.cpp
+Vector2D.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ImageProcess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

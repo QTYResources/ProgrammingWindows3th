@@ -1,0 +1,6 @@
+
+EXPORTS
+   SetSysHook
+
+SECTIONS
+	YCIShared   Read Write Shared

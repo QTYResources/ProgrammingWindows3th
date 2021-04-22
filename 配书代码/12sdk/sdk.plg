@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sdk - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/sdk.res" /d "_DEBUG" "C:\myCode\sdk\sdk.rc"" 
+Creating temporary file "C:\DOCUME~1\zhou\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/sdk.pdb" /debug /machine:I386 /out:"Debug/sdk.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\sdk.res
+.\Debug\sdk.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\zhou\LOCALS~1\Temp\RSP23.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+sdk.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

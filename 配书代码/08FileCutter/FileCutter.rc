@@ -1,0 +1,125 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FILECUTTER_DIALOG DIALOGEX 0, 0, 197, 189
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "文件切割器"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "请输入源文件：",IDC_SOURCETITLE,10,13,124,10
+    EDITTEXT        IDC_EDITSOURCE,10,27,124,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择...",IDC_SOURCEBROWSER,145,26,37,14
+    LTEXT           "请选择保存的目标文件夹：",IDC_DESTTITLE,10,50,126,10
+    EDITTEXT        IDC_EDITDEST,11,65,124,13,ES_AUTOHSCROLL
+    GROUPBOX        "选项",IDC_STATIC,10,87,172,38
+    CONTROL         "分隔为（单位M）:",IDC_SELECTSPLIT,"Button",
+                    BS_AUTORADIOBUTTON,17,102,78,13
+    COMBOBOX        IDC_UNIT,99,103,28,44,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "合并",IDC_SELECTMERGE,"Button",BS_AUTORADIOBUTTON,138,
+                    103,33,12
+    LTEXT           "   状态显示：",IDC_STATUSTEXT,11,136,77,11,SS_SUNKEN
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,
+                    91,135,90,14
+    PUSHBUTTON      "分隔",IDC_START,18,160,36,12
+    PUSHBUTTON      "关闭",IDCANCEL,141,160,36,12
+    PUSHBUTTON      "终止",IDC_STOP,78,160,36,12
+    PUSHBUTTON      "选择...",IDC_DESTBROWSER,145,65,37,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FILECUTTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "FileCutter.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

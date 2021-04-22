@@ -1,0 +1,139 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOGEX 0, 0, 293, 192
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "IPPack"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,238,159,50,14
+    CONTROL         "List1",IDC_LISTDATA,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,8,33,222,91
+    EDITTEXT        IDC_SPECIFICDATA,8,129,222,44,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    PUSHBUTTON      "目标",IDC_TARGET,8,8,50,14
+    PUSHBUTTON      "暂停",IDC_PAUSE,238,78,50,14
+    PUSHBUTTON      "关闭",IDC_CLOSE,69,8,50,14
+    PUSHBUTTON      "清除",IDC_CLEAR,238,33,50,14
+    CONTROL         "关闭发送",IDC_CLOSESEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,132,12,48,10
+    CONTROL         "关闭接受",IDC_CLOSERECV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,186,12,48,10
+    CONTROL         "总在最前",IDC_TOPMOST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,238,12,48,10
+END
+
+IDD_ENUMDIALOG DIALOG DISCARDABLE  0, 0, 151, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择目标程序"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "打开",IDOK,38,140,50,14
+    CONTROL         "List1",IDC_PROLIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,3,5,144,131
+    PUSHBUTTON      "取消",IDCANCEL,95,140,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 286
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_ENUMDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "IPPack.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

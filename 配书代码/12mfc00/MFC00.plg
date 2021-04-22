@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MFC00 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zhou\LOCALS~1\Temp\RSP162.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MFC00.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\myCode\MFC00\MFC00View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhou\LOCALS~1\Temp\RSP162.tmp" 
+Creating temporary file "C:\DOCUME~1\zhou\LOCALS~1\Temp\RSP163.tmp" with contents
+[
+opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MFC00.pdb" /debug /machine:I386 /out:"Debug/MFC00.exe" /pdbtype:sept 
+.\Debug\MainFrm.obj
+.\Debug\MFC00.obj
+.\Debug\MFC00Doc.obj
+.\Debug\MFC00View.obj
+.\Debug\StdAfx.obj
+.\Debug\MFC00.res
+]
+Creating command line "link.exe @C:\DOCUME~1\zhou\LOCALS~1\Temp\RSP163.tmp"
+<h3>Output Window</h3>
+Compiling...
+MFC00View.cpp
+C:\myCode\MFC00\MFC00View.cpp(136) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\myCode\MFC00\MFC00View.cpp(144) : warning C4305: 'return' : truncation from 'const int' to 'bool'
+C:\myCode\MFC00\MFC00View.cpp(164) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+C:\myCode\MFC00\MFC00View.cpp(164) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+MFC00.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
